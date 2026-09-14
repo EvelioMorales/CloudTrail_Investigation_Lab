@@ -18,10 +18,3 @@
 
 > CloudTrail Event History is regional and shows management events only, not every possible event type.
 
-## Interview-Style Question
-
-**Q: An AWS resource was deleted unexpectedly. How would you investigate it?**
-
-**Sample answer:**
-
-> I would first verify the affected account, Region, resource, and approximate deletion time. I would then search CloudTrail Event History for the relevant delete API action. I would inspect the event's identity, source IP address, timestamp, user agent, request parameters, and error information. Next, I would determine whether the action came from a person, assumed role, automation process, or AWS service and compare it with authorized change records. If it appeared unauthorized, I would preserve the evidence, disable or restrict the compromised credentials, review related activity, and escalate through the incident-response process. Finally, I would recommend preventive controls such as least-privilege IAM, MFA, deletion protection, monitoring alerts, and longer-term centralized logging.
