@@ -3,7 +3,7 @@
 A hands-on exercise investigating an AWS resource change (S3 bucket creation) using CloudTrail Event History — simulating the first steps of a cloud security incident investigation.
 
 **Author:** Evelio Morales Jr. — Security Engineer 1
-**Portfolio:** [ev-portfolio.com](https://ev-portfolio.com)
+**Portfolio:** [ev-portfolio.com](https://www.portfolio-ev.com)
 **LinkedIn:** [linkedin.com/in/evelio-morales-jr101](https://linkedin.com/in/evelio-morales-jr101)
 
 ## Objective
